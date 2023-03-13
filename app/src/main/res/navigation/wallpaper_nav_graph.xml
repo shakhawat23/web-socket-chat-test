@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/chatFragment"
+    android:id="@+id/wallpaper_nav_graph">
+
+
+    <fragment
+        android:id="@+id/wallpapersFragment"
+        android:name="com.example.wallpaper.ui.wallpaper.WallpaperListFragment"
+        tools:layout="@layout/fragment_wallpaper_list"
+        />
+
+
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.example.wallpaper.chat.ChatFragment"
+        tools:layout="@layout/fragment_chat"
+        />
+
+</navigation>
